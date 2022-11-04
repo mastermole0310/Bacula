@@ -1,0 +1,7 @@
+---
+- hosts: all
+  remote_user: root
+  tasks:
+  - name: Install Bacula Community - PostgreSQL Catalog
+    ansible.builtin.import_role:
+      name: baculasystems.bacula_community.bce

@@ -1,0 +1,14 @@
+all:
+  hosts:
+    node1:
+      ansible_user: root
+      ansible_ssh_host: 18.222.149.99
+      ansible_ssh_private_key_file: "/home/ubuntu/.ssh/alexs.pem"
+    node2:
+      ansible_user: root
+      ansible_ssh_host: 3.17.23.50
+      ansible_ssh_private_key_file: "/home/ubuntu/.ssh/alexs.pem"
+
+  vars:
+    bce_version: 13.0.1
+    director_hostname: baculadir.example.com
