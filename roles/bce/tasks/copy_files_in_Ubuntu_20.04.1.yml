@@ -1,0 +1,5 @@
+---
+- name: copy files
+  copy:
+    src: /etc/bacula
+    dest: /etc
